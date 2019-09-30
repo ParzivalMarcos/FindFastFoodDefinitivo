@@ -6,13 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     EditText txtLogin;
     EditText txtPass;
     Button btnLogin;
-    EditText txtResultado;
+    TextView txtResultado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         this.btnLogin = findViewById(R.id.btnLogin);
         this.txtLogin = findViewById(R.id.txtLogin);
         this.txtPass = findViewById(R.id.txtPass);
+        this.txtResultado = findViewById(R.id.txtResultado);
     }
 
     public void Logar(View view){
