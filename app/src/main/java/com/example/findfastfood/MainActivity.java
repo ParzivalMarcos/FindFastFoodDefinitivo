@@ -2,6 +2,7 @@ package com.example.findfastfood;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     EditText txtLogin;
     EditText txtPass;
     Button btnLogin;
-    TextView txtResultado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         this.btnLogin = findViewById(R.id.btnLogin);
         this.txtLogin = findViewById(R.id.txtLogin);
         this.txtPass = findViewById(R.id.txtPass);
-        this.txtResultado = findViewById(R.id.txtResultado);
     }
 
     public void Logar(View view){
@@ -31,12 +30,9 @@ public class MainActivity extends AppCompatActivity {
         login = txtLogin.getText().toString();
         senha = txtPass.getText().toString();
 
-        if (login.equals("admin") && senha.equals("admin")){
-            this.txtResultado.setText("Usuario aprovado!!!");
-        }else{
-            this.txtResultado.setText("Usuario e/ou senha incorretos");
-        }
-
+        Intent it = new Intent(this,TelaPrincipal.class);
+        it.putExtra("login", login);
+        it.putExtra("senha", senha);
 
     }
 }
