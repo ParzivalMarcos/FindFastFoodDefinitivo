@@ -26,7 +26,5 @@ public class TelaPrincipal extends AppCompatActivity {
         }else{
             this.txtBemVindo.setText("Usuario e/ou senha incorretos");
         }
-
-
     }
 }

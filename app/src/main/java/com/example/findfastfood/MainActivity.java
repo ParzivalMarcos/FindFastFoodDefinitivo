@@ -25,14 +25,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Logar(View view){
-        String login, senha;
-
-        login = txtLogin.getText().toString();
-        senha = txtPass.getText().toString();
+        String login = txtLogin.getText().toString();
+        String senha = txtPass.getText().toString();
 
         Intent it = new Intent(this,TelaPrincipal.class);
         it.putExtra("login", login);
         it.putExtra("senha", senha);
-
+        startActivity(it);
     }
 }
