@@ -11,11 +11,93 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="171dp"
-        android:layout_marginTop="218dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="182dp"
-        android:layout_marginBottom="366dp"
+        android:layout_marginBottom="568dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgFastFood"
+        android:layout_width="142dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgComidaItaliana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/catfastfood" />
+
+    <ImageView
+        android:id="@+id/imgComidaItaliana"
+        android:layout_width="146dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgComidaJaponesa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFastFood"
+        app:srcCompat="@drawable/catcomidaitaliana" />
+
+    <ImageView
+        android:id="@+id/imgComidaJaponesa"
+        android:layout_width="142dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="226dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgComidaItaliana"
+        app:srcCompat="@drawable/catcomidajaponesa" />
+
+    <TextView
+        android:id="@+id/txtComidaItaliana"
+        android:layout_width="205dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="30dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/txtComidaJaponesa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgComidaItaliana" />
+
+    <TextView
+        android:id="@+id/txtFastFood"
+        android:layout_width="205dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="28dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/txtComidaItaliana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgFastFood"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtComidaJaponesa"
+        android:layout_width="205dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="226dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgComidaJaponesa" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
