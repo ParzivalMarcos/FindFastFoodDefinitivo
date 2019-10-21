@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         String login = txtLogin.getText().toString();
         String senha = txtPass.getText().toString();
 
-        Intent it = new Intent(this,TelaPrincipal.class);
+
+        Intent it = new Intent(this, TelaPrincipal.class);
         //it.putExtra("login", login);
         //it.putExtra("senha", senha);
 
