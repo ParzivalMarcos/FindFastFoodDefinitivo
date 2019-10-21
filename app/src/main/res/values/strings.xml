@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FindFastFood</string>
+
+    <string name="japonesa">LÁMEN DO ICHRAKU!!!\n
+    O melhor Lámem da região, vindo direto de Konoha\n
+    Além do lámen, contamos com uma gigantesca variedades
+    de comidas tipicas japonesas, venham conferir!!!</string>
+
+    <string name="italiana">ALCAPONE MACARONI´S SPAGUETONI´S\n
+    Mama mia, temos as melhores massas, além dos mais diversos molhos
+    feitos seguindo a receita caseira da mama Giovana\n
+    Mãe de AlCapone</string>
 </resources>

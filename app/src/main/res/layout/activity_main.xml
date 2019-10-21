@@ -32,7 +32,7 @@
         android:layout_marginEnd="96dp"
         android:layout_marginBottom="51dp"
         android:ems="10"
-        android:hint="Logino"
+        android:hint="Login"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/txtPass"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,5 +54,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtLogin" />
+
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

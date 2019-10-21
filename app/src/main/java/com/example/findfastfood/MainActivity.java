@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     EditText txtLogin;
     EditText txtPass;
     Button btnLogin;
+    TextView txtError;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         this.btnLogin = findViewById(R.id.btnLogin);
         this.txtLogin = findViewById(R.id.txtLogin);
         this.txtPass = findViewById(R.id.txtPass);
+        this.txtError = findViewById(R.id.txtError);
     }
 
     public void Logar(View view){
@@ -29,8 +31,13 @@ public class MainActivity extends AppCompatActivity {
         String senha = txtPass.getText().toString();
 
         Intent it = new Intent(this,TelaPrincipal.class);
-        it.putExtra("login", login);
-        it.putExtra("senha", senha);
-        startActivity(it);
+        //it.putExtra("login", login);
+        //it.putExtra("senha", senha);
+
+        if (login.equals("admin") && senha.equals("admin")){
+            startActivity(it);
+        }else{
+            this.txtError.setText("Usuario e/ou Senha incorretos");
+        }
     }
 }
