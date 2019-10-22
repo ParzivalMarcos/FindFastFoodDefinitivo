@@ -61,12 +61,14 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                        <ImageButton
-                            android:id="@+id/btnJaponesa"
-                            android:layout_width="200dp"
-                            android:layout_height="200dp"
-                            android:src="@drawable/catcomidajaponesa"
-                            android:scaleType="fitXY"></ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/btnJaponesa"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:onClick="japonesa"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/catcomidajaponesa"></ImageButton>
                         <ImageButton
                             android:id="@+id/btnItaliana"
                             android:layout_width="200dp"
@@ -82,7 +84,7 @@
                         android:textAlignment="center"
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/japonesa"></TextView>
+                        android:text="@string/pesquisa"></TextView>
                     <TextView
                         android:textAlignment="center"
                         android:layout_width="200dp"
@@ -94,17 +96,37 @@
                 android:orientation="vertical"
                 android:id="@+id/vazioS"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"></LinearLayout>
+                android:layout_height="30dp"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="CUPONS DE DESCONTOS"
+                    android:layout_height="172dp"
+                    android:text="Cupons"
                     android:textAlignment="center"
                     android:textSize="20dp"></TextView>
+
+
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mais opções"
+                android:textAlignment="center"
+                android:textSize="20dp"></TextView>
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="pesquisa"
+                app:srcCompat="@android:drawable/ic_search_category_default" />/>
+
+
 
 
 
