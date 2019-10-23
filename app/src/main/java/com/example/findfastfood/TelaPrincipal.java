@@ -11,10 +11,15 @@ import android.widget.TextView;
 
 public class TelaPrincipal extends AppCompatActivity {
 
+    ImageButton btnJaponesa;
+    ImageButton btnItaliana;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_principal);
+        this.btnItaliana = findViewById(R.id.btnItaliana);
+        this.btnJaponesa = findViewById(R.id.btnJaponesa);
     }
 
     public void japonesa (View view){
