@@ -5,6 +5,10 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="vermelho">#B91C2F</color>
-    <color name="azul">#0B4BEC</color>
+    <color name="laranja">#FC5B2C</color>
     <color name="verde">#2DEC0B</color>
+    <color name="laranja_claro">#F0724D</color>
+    <color name="cinza">#272727</color>
+    <color name="branco">#FDFDFD</color>
+    <color name="cinza_claro">#686868</color>
 </resources>

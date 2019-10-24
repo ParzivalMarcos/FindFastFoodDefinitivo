@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(it);
         }else{
             this.txtError.setText("Usuario e/ou Senha incorretos");
+            this.txtLogin.setText("");
+            this.txtPass.setText("");
         }
     }
 }

@@ -11,9 +11,12 @@
     <!-- Tema proprio -->
     <style name="TemaProprio" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/vermelho</item>
-        <item name="colorPrimaryDark">@color/azul</item>
-        <item name="colorAccent">@color/verde</item>
+        <item name="colorPrimary">@color/laranja</item>
+        <item name="colorPrimaryDark">@color/laranja_claro</item>
+        <item name="colorAccent">@color/branco</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowBackground">@color/cinza</item>
     </style>
 
 </resources>
