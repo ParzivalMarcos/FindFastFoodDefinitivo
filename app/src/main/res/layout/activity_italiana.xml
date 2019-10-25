@@ -24,7 +24,7 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/combinado" />
+                android:src="@drawable/risoto" />
 
             <Button
                 android:id="@+id/button3"
@@ -35,19 +35,19 @@
                 android:layout_marginBottom="10dp"
                 android:background="#0A0A0A"
                 android:lineSpacingExtra="8sp"
-                android:text="Combinado 30 peças    r$ 32,00"
+                android:text="risotos a partir de  r$ 32,00"
                 android:textColor="#FF5722"
                 android:textStyle="bold"
                 android:typeface="normal" />
 
 
-    <ImageView
-        android:scaleType="centerCrop"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:src="@drawable/temaki"/>
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/tortellini"/>
 
             <Button
                 android:id="@+id/button4"
@@ -58,7 +58,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="#0A0A0A"
                 android:lineSpacingExtra="8sp"
-                android:text=" Temaki a partir de R$12,90"
+                android:text=" Tortellini a partir de R$ 22,90"
                 android:textColor="#FF5722"
                 android:textStyle="bold"
                 android:typeface="normal" />
@@ -70,7 +70,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/sushi" />
+                android:src="@drawable/lasagna" />
 
             <Button
                 android:id="@+id/button5"
@@ -81,18 +81,19 @@
                 android:layout_marginBottom="10dp"
                 android:background="#0A0A0A"
                 android:lineSpacingExtra="8sp"
-                android:text="Sushi a partir de r$ 1,00 un"
+                android:text="lasagna para 2 pessoas r$ 28,90"
                 android:textColor="#FF5722"
                 android:textStyle="bold"
                 android:typeface="normal" />
-    <ImageView
-        android:scaleType="centerCrop"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:src="@drawable/sashimi"/>
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/capaccio"/>
+
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
@@ -102,7 +103,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="#0A0A0A"
                 android:lineSpacingExtra="8sp"
-                android:text="Sashimi a partir de R$ 1,00"
+                android:text="carpaccios a partir de R$ 18,90"
                 android:textColor="#FF5722"
                 android:textStyle="bold"
                 android:typeface="normal" />
@@ -113,7 +114,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/sake" />
+                android:src="@drawable/soda" />
 
             <Button
                 android:id="@+id/button7"
@@ -124,7 +125,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="#0A0A0A"
                 android:lineSpacingExtra="8sp"
-                android:text="Sakes diversos"
+                android:text="Sodas Italianas"
                 android:textColor="#FF5722"
                 android:textStyle="bold"
                 android:typeface="normal" />
@@ -133,4 +134,4 @@
 
     </ScrollView>
 
-   </LinearLayout>
+</LinearLayout>

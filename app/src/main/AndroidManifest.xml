@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/TemaProprio">
-        <activity android:name=".Pesquisa"></activity>
+        <activity android:name=".lanches"></activity>
+        <activity android:name=".Tipica" />
+        <activity android:name=".Italiana" />
+        <activity android:name=".Pesquisa" />
         <activity android:name=".Japonesa" />
         <activity android:name=".TelaPrincipal" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

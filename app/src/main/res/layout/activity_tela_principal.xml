@@ -2,20 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".TelaPrincipal"
     android:orientation="horizontal"
     android:background="@color/cinza">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <LinearLayout
             android:id="@+id/layoutTotal"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            >
             <LinearLayout
                 android:id="@+id/destaques"
                 android:layout_width="match_parent"
@@ -56,28 +57,33 @@
             <LinearLayout
                 android:id="@+id/telasRestaurantes"
                 android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <LinearLayout
-                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
                     <ImageButton
                         android:id="@+id/btnJaponesa"
-                        android:layout_gravity="left"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
+                        android:layout_gravity="left"
+                        android:backgroundTint="#272727"
                         android:onClick="japonesa"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logojap"></ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/btnItaliana"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="right"
+                        android:backgroundTint="#00221E1E"
+                        android:onClick="italiana"
                         android:scaleType="fitXY"
-                        android:src="@drawable/japinha"></ImageButton>
-                        <ImageButton
-                            android:id="@+id/btnItaliana"
-                            android:layout_gravity="right"
-                            android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:src="@drawable/catcomidaitaliana"
-                            android:scaleType="fitXY"></ImageButton>
+                        android:src="@drawable/alcapone"></ImageButton>
                 </LinearLayout>
                 <LinearLayout
                     android:orientation="horizontal"
@@ -110,15 +116,19 @@
                         android:id="@+id/btnFeijoada"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:onClick="japonesa"
+                        android:backgroundTint="#272727"
+                        android:onClick="tipica"
                         android:scaleType="fitXY"
-                        android:src="@drawable/feijoada"></ImageButton>
+                        android:src="@drawable/tio"></ImageButton>
+
                     <ImageButton
                         android:id="@+id/btnLanche"
-                        android:layout_width="210dp"
+                        android:layout_width="200dp"
                         android:layout_height="200dp"
-                        android:src="@drawable/lanche"
-                        android:scaleType="fitXY"></ImageButton>
+                        android:backgroundTint="#272727"
+                        android:onClick="lanches"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tia"></ImageButton>
                 </LinearLayout>
                 <LinearLayout
                     android:orientation="horizontal"

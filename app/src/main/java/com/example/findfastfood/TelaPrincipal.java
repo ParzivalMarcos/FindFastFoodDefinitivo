@@ -41,4 +41,22 @@ public class TelaPrincipal extends AppCompatActivity {
 
     }
 
+    public void italiana (View view){
+        Intent it = new Intent(this, Italiana.class);
+        startActivity(it);
+
+    }
+
+    public void tipica (View view){
+        Intent it = new Intent(this, Tipica.class);
+        startActivity(it);
+
+    }
+
+    public void lanches (View view){
+        Intent it = new Intent(this, lanches.class);
+        startActivity(it);
+
+    }
+
 }
