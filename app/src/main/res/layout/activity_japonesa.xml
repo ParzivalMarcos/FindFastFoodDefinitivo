@@ -33,7 +33,8 @@
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="7dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/combinado_30_pe_as_r_36_00" />
+                android:text="Sushi"
+                android:textColor="@color/cinza"/>
 
 
     <ImageView
@@ -51,7 +52,8 @@
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="7dp"
                 android:layout_marginBottom="10dp"
-                android:text=" Temaki a partir de R$12,90" />
+                android:text=" Temaki a partir de R$12,90"
+                android:textColor="@color/cinza"/>
 
             <ImageView
                 android:layout_width="match_parent"
@@ -69,7 +71,8 @@
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="7dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/sushi_a_partir_de_r_1_00" />
+                android:text="Sushi"
+                android:textColor="@color/cinza"/>
     <ImageView
         android:scaleType="centerCrop"
         android:layout_width="match_parent"
@@ -85,7 +88,8 @@
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="7dp"
                 android:layout_marginBottom="10dp"
-                android:text="Sashimi a partir de R$ 1,00" />
+                android:text="Sashimi a partir de R$ 1,00"
+                android:textColor="@color/cinza"/>
 
             <ImageView
                 android:layout_width="match_parent"
@@ -102,7 +106,8 @@
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="7dp"
                 android:layout_marginBottom="10dp"
-                android:text="Sake diversos" />
+                android:text="Sake diversos"
+                android:textColor="@color/cinza"/>
 
         </LinearLayout>
 
