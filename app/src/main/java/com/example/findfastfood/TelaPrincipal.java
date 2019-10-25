@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -13,6 +14,9 @@ public class TelaPrincipal extends AppCompatActivity {
 
     ImageButton btnJaponesa;
     ImageButton btnItaliana;
+    ImageButton btnPesquisa;
+    ImageButton btnFeijoada;
+    ImageButton btnLanche;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +24,9 @@ public class TelaPrincipal extends AppCompatActivity {
         setContentView(R.layout.activity_tela_principal);
         this.btnItaliana = findViewById(R.id.btnItaliana);
         this.btnJaponesa = findViewById(R.id.btnJaponesa);
+        this.btnPesquisa = findViewById(R.id.btnPesquisa);
+        this.btnFeijoada = findViewById(R.id.btnFeijoada);
+        this.btnLanche = findViewById(R.id.btnLanche);
     }
 
     public void japonesa (View view){
@@ -33,4 +40,5 @@ public class TelaPrincipal extends AppCompatActivity {
         startActivity(it);
 
     }
+
 }
