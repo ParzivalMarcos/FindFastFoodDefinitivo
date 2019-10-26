@@ -11,11 +11,15 @@
     feitos seguindo a receita caseira da mama Giovana\n
     Mãe de AlCapone</string>
 
-    <string name="feijoada">FEIJOADA DO TIO BEN</string>
+    <string name="feijoada">FEIJOADA DO TIO BEN!!!\n
+    Comida típica brasileira, além de termos a melhor feijoada
+    da região. Confira !!!</string>
 
-    <string name="lanche">LANCHONETE DA TIA MEI</string>
+    <string name="lanche">LANCHONETE DA TIA MEI!!!\n
+    Lanches dos mais variados tipos: Hamburgeres, sanduiches,
+    bolos, salgados, além de termos opções vegetarianas. Venha conhecer</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-  </resources>
+</resources>

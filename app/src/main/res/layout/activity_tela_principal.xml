@@ -152,15 +152,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"/>
             <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <TextView
+                <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="172dp"
-                    android:text="Cupons"
-                    android:textAlignment="center"
-                    android:textSize="20dp"></TextView>
+                    android:layout_height="170dp"
+                    android:src="@drawable/cupondedesconto"></ImageView>
+                <Button
+                    android:id="@+id/btnCupons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clique e ganhe um presente nosso"
+                    android:textColor="@color/cinza"
+                    android:textStyle="bold"
+                    android:background="@color/laranja_claro"
+                    android:onClick="mostrarCupons"></Button>
+
+                <fragment
+                    android:id="@+id/fragmentContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:name="com.example.findfastfood.BlankFragment"></fragment>
+
 
 
             </LinearLayout>

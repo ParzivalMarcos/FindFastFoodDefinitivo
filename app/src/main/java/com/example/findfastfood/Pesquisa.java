@@ -21,7 +21,7 @@ public class Pesquisa extends AppCompatActivity {
     }
     public void pesquisa(View view) {
 
-        String pesquisa = txtPesquisa.getText().toString();
+        String pesquisa = txtPesquisa.getText().toString().toLowerCase();
 
         Intent jap = new Intent(this, Japonesa.class);
         Intent lan = new Intent(this, lanches.class);
@@ -31,7 +31,7 @@ public class Pesquisa extends AppCompatActivity {
         if (pesquisa.equals("japonesa")) {
             startActivity(jap);
 
-        }else if (pesquisa.equals("lanches")){
+        }else if (pesquisa.equals("lanches") || pesquisa.equals("lanchonete")){
             startActivity(lan);
         }else if (pesquisa.equals("italiana")){
             startActivity(ita);
