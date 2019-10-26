@@ -20,7 +20,9 @@
 
     </FrameLayout>
 
+    <!--
     <SearchView
+        android:onClick="pesquisa"
         android:id="@+id/searchView"
         android:iconifiedByDefault="false"
         android:layout_width="wrap_content"
@@ -28,6 +30,59 @@
         android:queryHint="Pesquise seu prato favorito"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="0dp" />
+        -->
+    <EditText
+        android:id="@+id/txtPesquisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="51dp"
+        android:ems="10"
+        android:hint="Pesquisar tipo de comida"
+        android:inputType="textPersonName"
+        android:textColor="@color/laranja_claro"
+        android:textColorHint="@color/laranja_claro"
+        android:textColorLink="@color/branco"
+        app:layout_constraintBottom_toTopOf="@+id/txtPass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPesquisa"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="@color/laranja_claro"
+        android:onClick="pesquisa"
+        android:text="Pesquisa"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/cinza_claro"
+        android:textColorLink="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        />
+    <TextView
+        android:id="@+id/txtError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </RelativeLayout>

@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     EditText txtLogin;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         this.txtError = findViewById(R.id.txtError);
     }
 
-    public void Logar(View view){
+    public void Logar(View view) {
         String login = txtLogin.getText().toString();
         String senha = txtPass.getText().toString();
 
@@ -35,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
         //it.putExtra("login", login);
         //it.putExtra("senha", senha);
 
-        if (login.equals("admin") && senha.equals("admin")){
+        if (login.equals("admin") && senha.equals("admin")) {
             startActivity(it);
-        }else{
+        } else {
             this.txtError.setText("Usuario e/ou Senha incorretos");
             this.txtLogin.setText("");
             this.txtPass.setText("");
