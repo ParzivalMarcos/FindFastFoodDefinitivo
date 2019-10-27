@@ -73,6 +73,7 @@
         android:layout_marginTop="33dp"
         android:layout_marginEnd="220dp"
         android:layout_marginBottom="550dp"
+        android:textColor="@color/vermelho"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
