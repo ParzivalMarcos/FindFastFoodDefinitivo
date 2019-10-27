@@ -31,7 +31,7 @@ public class Pesquisa extends AppCompatActivity {
         if (pesquisa.equals("japonesa")) {
             startActivity(jap);
 
-        }else if (pesquisa.equals("lanches") || pesquisa.equals("lanchonete")){
+        }else if (pesquisa.equals("lanches") || pesquisa.equals("lanchonete") || pesquisa.equals("lanche")){
             startActivity(lan);
         }else if (pesquisa.equals("italiana")){
             startActivity(ita);

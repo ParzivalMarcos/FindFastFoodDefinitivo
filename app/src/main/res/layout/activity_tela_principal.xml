@@ -48,7 +48,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="RESTAURANTES PERTO DE VOCE"
+                    android:text="RESTAURANTES"
                     android:textAlignment="center"
                     android:textSize="20dp">
                     
@@ -66,6 +66,7 @@
                     android:orientation="horizontal">
 
                     <ImageButton
+                        android:foregroundGravity="left"
                         android:id="@+id/btnJaponesa"
                         android:layout_width="200dp"
                         android:layout_height="200dp"
