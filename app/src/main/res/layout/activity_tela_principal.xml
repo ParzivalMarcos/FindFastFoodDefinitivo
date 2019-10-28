@@ -7,7 +7,6 @@
     tools:context=".TelaPrincipal"
     android:orientation="horizontal"
     android:background="@color/cinza">
-
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -31,7 +30,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="DESTAQUES"
+                    android:text=" \nDESTAQUES"
                     android:textAlignment="center"
                     android:textSize="30sp"
                     android:textStyle="bold" >
@@ -185,10 +184,10 @@
                     android:layout_height="match_parent"
                     android:name="com.example.findfastfood.BlankFragment"></fragment>
 
-
-
             </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
@@ -202,10 +201,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/cinza"
                 android:onClick="pesquisa"
+                android:tint="@color/laranja"
                 app:srcCompat="@android:drawable/ic_search_category_default" />
-
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

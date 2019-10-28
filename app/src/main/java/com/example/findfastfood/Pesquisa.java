@@ -6,18 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Pesquisa extends AppCompatActivity {
 
     EditText txtPesquisa;
-    TextView txtError;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pesquisa);
         this.txtPesquisa = findViewById(R.id.txtPesquisa);
-        this.txtError = findViewById(R.id.txtError);
     }
     public void pesquisa(View view) {
 
@@ -40,7 +39,8 @@ public class Pesquisa extends AppCompatActivity {
         }
 
         else {
-            this.txtError.setText("Item não existe");
+            Toast.makeText(getApplicationContext(), "Restaurante não encontrado", Toast.LENGTH_LONG).show();
+            this.txtPesquisa.setText("");
         }
     }
 }
